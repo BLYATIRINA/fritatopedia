@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    БАМБАМ?
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <form action="{% url 'login' %}">
+        <input type="text">
+        <input type="password">
+        <input type="password">
+            <button>кнопка</button>
+        </form>
+    </div>
+
+
+{% endblock %}

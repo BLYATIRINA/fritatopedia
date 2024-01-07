@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    }
+
+h1 {
+color: #db6400}
+
+.main{
+   position: absolute;
+   left: 320px;
+   top: 95px;
+
+}
+
+
+input {
+  background-image: url('C:/Users/MaAri/PycharmProjects/pythonProject5/bimbimbambombum/ыыы/static/ыыы/images/clipart163646.png');
+  border-radius: 10px;
+  margin: 1px;
+
+  }
+
+#registration {
+    float: right;
+    padding: 8px
+}
+
+#input {
+    float: right;
+    padding: 8px
+}
+
+h2 {
+    color: #db6400;
+    padding-top: 3%;
+}
+
+#article_href {
+text-decoration: none;}
+
+.alert-warning {
+    position: relative;
+    text-align: left;
+    clear: both;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    margin-right: 8px;
+
+}
+
+a {
+   color: black;
+   }
+
+a:hover {
+    color: #4daffc;
+
+}
+
+.btn-warning{
+    background-color: #ffcea4;
+    border-color: #ffcea4;
+}
+
+.btn-warning:hover{
+    background-color: #f2caa8;
+    border-color: #f2caa8;
+}
+
+.btn-warning:onclick{
+    background-color: #fae4c0;
+    border-color: #fae4c0;
+}
+
+#top {
+    background-color: #fff0e3;
+    float: top;
+    width: 100%;
+    height: 6%;
+}
+
+#aside {
+    background-color: #fff0e3;
+    float: left;
+    width: 15%;
+    height: 140vh;
+    padding: 1%;
+    padding-top: 8%;
+    padding-right: 3%;
+    line-height: 30px;
+    color: black;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+}

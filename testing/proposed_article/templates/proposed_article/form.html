@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    БАМБАМ?
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+    <h1 class="orange">Добро </h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.title }}<br>
+            {{ form.anons }}<br>
+            {{ form.full_text }}<br>
+            <button type="submit" class="btn btn-warning">Предложить статью</button>
+
+        </form>
+    </div>
+
+
+{% endblock %}

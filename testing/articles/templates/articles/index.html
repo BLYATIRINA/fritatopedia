@@ -1,0 +1,26 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    БАМБАМ?
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <h1 class="orange" style="margin-bottom: 30px">Популярные статьи</h1>
+        {% for i in news %}
+
+        <a id='article_href' href="{% url 'news-detail' i.id %}">
+        <div class="alert alert-warning" style="">
+            <h3>{{ i.title }}</h3>
+            <img src="{{ i.image.url }}" height="200" width="300">
+            <p>{{ i.anons }}</p>
+        </div>
+            </a>
+        {% if forloop.counter|divisibleby:3 or forloop.last %}
+        <br>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+
+{% endblock %}

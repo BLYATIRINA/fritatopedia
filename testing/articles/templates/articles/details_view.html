@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    БАМБАМ?
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <h1>{{ article.title }}</h1>
+       {{ article.full_text | safe}}
+    </div><br>
+    <button>нравица</button>
+
+
+{% endblock %}

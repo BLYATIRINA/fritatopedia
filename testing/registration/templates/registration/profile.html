@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    БАМБАМ?
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <form method="post">
+            {% csrf_token %}
+       {{ users }}
+         <p>{{ user.username }}</p>
+        <p>passwdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffford</p>
+</form>
+    </div>
+
+
+{% endblock %}
